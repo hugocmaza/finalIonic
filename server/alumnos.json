@@ -1,0 +1,28 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "apellido": "Java",
+	  "nombre": "Oracle",
+      "fecha": "2010-11-13"
+    },
+    {
+      "id": 2,
+      "apellido": "C#",
+	  "nombre": "Microsoft",
+      "fecha": "2010-12-12"
+    },
+    {
+      "id": 3,
+      "apellido": "Angular",
+	  "nombre": "ANG",
+      "fecha": "2010-10-18"
+    },
+    {
+      "id": 4,
+      "apellido": "Ionic",
+	  "nombre": "IO",
+      "fecha": "1990-12-12"
+    }
+  ]
+}
