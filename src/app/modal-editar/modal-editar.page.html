@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Modal Editar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Modal Editar</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-list lines="full">
+    <form [formGroup]="formulario" >
+      <ion-item>
+        <ion-label position="floating">Apellido</ion-label>
+        <ion-input label="apellido" type="text" class="form-control" formControlName="apellido" > </ion-input>
+
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input label="nombre" type="text" class="form-control" formControlName="nombre" > </ion-input>
+
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Fecha de Nacimiento</ion-label>
+
+        <ion-input label="fecha" type="date" class="form-control"  formControlName="fecha"> </ion-input>
+      </ion-item>
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="secondary" expand="block" (click)="closeModel()" >Modificar</ion-button>
+        </ion-col>
+      </ion-row>
+
+    </form>
+
+
+
+    </ion-list>
+
+
+</ion-content>
